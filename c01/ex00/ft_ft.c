@@ -23,8 +23,16 @@ void	ft_ft(int *nbr)
  	int nbr;
 	int *p_nbr;
 
-	nbr = 21;
-	p_nbr = &nbr;
+	nbr = 43;
+	nbr8 = &n;
+	nbr7 = &nbr8;
+	nbr6 = &nbr7;
+	nbr5 = &nbr6;
+	nbr4 = &nbr5;
+	nbr3 = &nbr4;
+	nbr2 = &nbr3;
+	nbr1 = &nbr2;
+	nbr = &nbr1;
 
 	ft_ft(p_nbr);
 	printf("%d\n", nbr);
