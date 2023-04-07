@@ -23,7 +23,7 @@ int main()
 	int nbr;
 
 	nbr = 21;
-	p_nbr = &&&&&&&nbr;
+	p_nbr = &(&(&(&(&(&(&(&nbr))))));
 
 	printf("%d\n", nbr);
 	ft_ultimate_ft(p_nbr);
