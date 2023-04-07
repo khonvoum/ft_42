@@ -3,49 +3,31 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aaltiner <aaltiner@student.42kocaeli.com.  +#+  +:+       +#+        */
+/*   By: mhaciome <mhaciome@42kocaeli.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/25 03:23:05 by aaltiner          #+#    #+#             */
-/*   Updated: 2022/10/25 15:18:08 by aaltiner         ###   ########.tr       */
+/*   Created: 2023/04/07 04:18:54 by mhaciome          #+#    #+#             */
+/*   Updated: 2023/04/07 04:18:55 by mhaciome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
-void	ft_ultimate_ft(int *********nbr)
+void ft_ultimate_ft(int *********nbr)
 {
 	*********nbr = 42;
 }
 
-/*
-int	main()
+int main()
 {
 	int *********p_nbr;
-	int ********p_nbr2;
-	int *******p_nbr3;
-	int ******p_nbr4;
-	int *****p_nbr5;
-	int ****p_nbr6;
-	int ***p_nbr7;
-	int **p_nbr8;
-	int *p_nbr9;
 	int nbr;
 
 	nbr = 21;
-
-	p_nbr9 = &nbr;
-	p_nbr8 = &p_nbr9;
-	p_nbr7 = &p_nbr8;
-	p_nbr6 = &p_nbr7;
-	p_nbr5 = &p_nbr6;
-	p_nbr4 = &p_nbr5;
-	p_nbr3 = &p_nbr4;
-	p_nbr2 = &p_nbr3;
-	p_nbr = &p_nbr2;
+	p_nbr = &&&&&&&nbr;
 
 	printf("%d\n", nbr);
 	ft_ultimate_ft(p_nbr);
 	printf("%d\n", nbr);
 	return (0);
 }
-*/
+
